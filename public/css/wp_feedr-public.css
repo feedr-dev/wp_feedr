@@ -1,0 +1,58 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.wp_feedr_accommodation {
+	position: relative;
+	margin: 20px 0;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+.wp_feedr_accommodation .image {
+	float: left;
+	width: 25%;
+}
+.wp_feedr_accommodation .info {
+	float: right;
+	width: 70%;
+}
+.wp_feedr_accommodation .info h3 {
+	margin: 0;
+	font-size: 16px;
+	font-weight: bold;
+}
+.wp_feedr_accommodation .info .breadcrumbs {
+	font-size: 12px;
+	color: #999;
+}
+.wp_feedr_accommodation .price .main-price {
+	clear: both;
+	position: absolute;
+	left: -22px;
+	top: 18px;
+	padding: 0 20px;
+	z-index: 2;
+	background: yellow;
+	-ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.wp_feedr_accommodation .price .main-price a {
+	text-decoration: none;
+}
+
+
+
+.group:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
